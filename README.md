@@ -1,6 +1,8 @@
 # Code-Wars
 Training my coding skills through critical thinking.
 
+Below are the prompts given from code wars.
+
 ========================================================================
 # Most frequently used words in a text
 
