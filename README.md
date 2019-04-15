@@ -70,7 +70,7 @@ Note:
 If you are given an array with multiple answers, return the lowest correct index.
 An empty array should be treated like a 0 in this problem.
 
-# Most frequently used words in a text
+# Regex validate PIN code
 
 ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
 
