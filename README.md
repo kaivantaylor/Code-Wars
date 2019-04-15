@@ -69,3 +69,15 @@ The lowest index N where the side to the left of N is equal to the side to the r
 Note:
 If you are given an array with multiple answers, return the lowest correct index.
 An empty array should be treated like a 0 in this problem.
+
+# Most frequently used words in a text
+
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+If the function is passed a valid PIN string, return true, else return false.
+
+eg:
+
+validate_pin("1234") == True
+validate_pin("12345") == False
+validate_pin("a234") == False
