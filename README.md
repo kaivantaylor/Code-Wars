@@ -1,7 +1,6 @@
 # Code-Wars
 Training my coding skills through critical thinking.
 
-# Prompts
 Problems from Code Wars and their given instructions and test cases. All code is submitted and then random test cases that are not listed are given as well.
 
 # Most frequently used words in a text
