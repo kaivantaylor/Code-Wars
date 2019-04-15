@@ -2,7 +2,8 @@
 Training my coding skills through critical thinking.
 
 # Prompts
-========================================================================
+Problems from Code Wars and their given instructions and test cases. All code is submitted and then random test cases that are not listed are given as well.
+
 # Most frequently used words in a text
 
 Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.
@@ -30,7 +31,6 @@ Bonus points (not really, but just for fun):
 Avoid creating an array whose memory footprint is roughly as big as the input text.
 Avoid sorting the entire array of unique words.
 
-========================================================================
 # Sum of positive
 
 You get an array of numbers, return the sum of all of the positives ones.
@@ -39,7 +39,6 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
 
-========================================================================
 # Equal Sides Of An Array
 
 You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
