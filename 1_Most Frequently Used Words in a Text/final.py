@@ -1,10 +1,9 @@
 import string
 import re
 
-def longest_consec(text,k):
-    #print(text)
-    str = " ".join(text)
-    txtsplt = re.findall(r"[a-zA-Z']+", str)
+def top_3_words(text):
+    print(text)
+    txtsplt = re.findall(r"[a-zA-Z']+", text)
     #print(txtsplt)
 
     list_1 = []
@@ -29,7 +28,7 @@ def longest_consec(text,k):
             dict[x] = dict[x] + 1
         else:
             dict[x] = int(1)
-    #print(dict)
+    print(dict)
 
     for x in dict:
         list_2.append((dict[x],x))
@@ -38,11 +37,11 @@ def longest_consec(text,k):
     list_2.reverse()
     list_2 = list_2[0:3]
 
-    #print(list_2)
+    print(list_2)
     b = "''"
     new = []
     for x in list_2:
         a = x[1]
         new.append(a)
-    #print(new)
-    return "string"
+    print(new)
+    return new
