@@ -3,10 +3,7 @@ import re
 
 def longest_consec(text,k):
     #print(text)
-    str = ''
-    for x in text:
-        str += x
-    print(str)
+    str = " ".join(text)
     txtsplt = re.findall(r"[a-zA-Z']+", str)
     #print(txtsplt)
 
@@ -39,7 +36,7 @@ def longest_consec(text,k):
 
     list_2.sort()
     list_2.reverse()
-    list_2 = list_2[0:k]
+    list_2 = list_2[0:3]
 
     #print(list_2)
     b = "''"
