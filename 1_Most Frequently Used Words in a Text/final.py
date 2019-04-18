@@ -3,7 +3,7 @@ import re
 
 def top_3_words(text):
     print(text)
-    txtsplt = re.findall(r"[a-zA-Z']+", text)
+    txtsplt = re.findall(r"[a-zA-Z']+|['a-zA-Z]+", text)
     #print(txtsplt)
 
     list_1 = []
@@ -12,13 +12,14 @@ def top_3_words(text):
     count = 0
     dict = {}
     words = 'bcdfghjklmnpqrstvxzaeiou'
+    strip = r'!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'
 
     for x in txtsplt:
         if  (any(c in words for c in x.lower()) == True):
             #print(x)
             x = x.lower()
             #print(lower_x)
-            x = x.strip(string.punctuation)
+            x = x.strip(strip)
             #print(x)
             list_1.append(x)
     #print(list_1)
@@ -43,5 +44,7 @@ def top_3_words(text):
     for x in list_2:
         a = x[1]
         new.append(a)
-    print(new)
+    #print(new)
     return new
+
+print(top_3_words("das' das das ye's 'yes 'yes"))
