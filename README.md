@@ -90,3 +90,25 @@ Example:
 create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns "(123) 456-7890"
 The returned format must be correct in order to complete this challenge. 
 Don't forget the space after the closing parentheses!
+
+# Consecutive Strings
+You are given an array strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
+
+Example:
+longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) --> "abigailtheta"
+
+n being the length of the string array, if n = 0 or k > n or k <= 0 return "".
+
+Note
+consecutive strings : follow one after another without an interruption
+
+# Mumbling
+
+This time no story, no theory. The examples below show you how to write function accum:
+
+Examples:
+
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+The parameter of accum is a string which includes only letters from a..z and A..Z.
