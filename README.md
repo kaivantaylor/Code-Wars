@@ -3,7 +3,7 @@ Training my coding skills through critical thinking.
 
 Problems from Code Wars and their given instructions and test cases. All code is submitted and then random test cases that are not listed are given as well.
 
-# Most frequently used words in a text
+# 1) Most frequently used words in a text
 
 Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.
 
@@ -30,7 +30,7 @@ Bonus points (not really, but just for fun):
 Avoid creating an array whose memory footprint is roughly as big as the input text.
 Avoid sorting the entire array of unique words.
 
-# Sum of positive
+# 2) Sum of positive
 
 You get an array of numbers, return the sum of all of the positives ones.
 
@@ -38,7 +38,7 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
 
-# Equal Sides Of An Array
+# 3) Equal Sides Of An Array
 
 You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
 
@@ -70,7 +70,7 @@ Note:
 If you are given an array with multiple answers, return the lowest correct index.
 An empty array should be treated like a 0 in this problem.
 
-# Regex validate PIN code
+# 4) Regex validate PIN code
 
 ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
 
@@ -82,7 +82,7 @@ validate_pin("1234") == True
 validate_pin("12345") == False
 validate_pin("a234") == False
 
-# Create Phone Number
+# 5) Create Phone Number
 
 Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
 
@@ -91,7 +91,7 @@ create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns "(123) 456-7890
 The returned format must be correct in order to complete this challenge. 
 Don't forget the space after the closing parentheses!
 
-# Consecutive Strings
+# 6) Consecutive Strings
 You are given an array strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
 
 Example:
@@ -102,7 +102,7 @@ n being the length of the string array, if n = 0 or k > n or k <= 0 return "".
 Note
 consecutive strings : follow one after another without an interruption
 
-# Mumbling
+# 7) Mumbling
 
 This time no story, no theory. The examples below show you how to write function accum:
 
