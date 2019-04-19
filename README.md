@@ -149,14 +149,11 @@ when changing positive to negative use n't (except if the original word (plus an
 Beware of the word can
 Beware of punctuation
 Beware of variations with an 've suffix, such as should've, would've, could've, etc
+
 Examples
 words = ["can", "do", "have", "was", "would"]
 speech
 I do like pizza. ==> I don't like pizza.
-I haven't seen you wearing that hat before. ==> I have seen you wearing that hat before.
-I could see why you would say that. ==> I could see why you wouldn't say that.
-I didn't say it! It wasn't me! ==> I didn't say it! It was me!
 YES, WE CAN ==> YES, WE CAN'T
 Wouldn't you believe it? I can't! ==> Would you believe it? I can!
-I must be more careful in future. ==> I must be more careful in future.
-I don't see why it WOULD be them ==> I do see why it WOULDN'T be them
+
