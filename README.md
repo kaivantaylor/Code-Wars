@@ -135,17 +135,22 @@ should - shouldn't
 was - wasn't
 were - weren't
 would - wouldn't
+
 Input
-words - these are the words your brain has trouble with (contains only lower case positive form of the word)
+words - these are the words your brain has trouble with 
+(contains only lower case positive form of the word)
 
 speech - what your mouth said
 
 Output
-What you meant to say. This is the speech sentence, but with any of the words (both positive and negative forms) negated
+What you meant to say. This is the speech sentence, but with any
+of the words (both positive and negative forms) negated
 Notes
 Case rules
-when changing negative to positive the replacement word must be same case as the original
-when changing positive to negative use n't (except if the original word (plus any 've part) was entirely uppercase, then use N'T)
+when changing negative to positive the replacement word
+must be same case as the original
+when changing positive to negative use n't 
+(except if the original word (plus any 've part) was entirely uppercase, then use N'T)
 Beware of the word can
 Beware of punctuation
 Beware of variations with an 've suffix, such as should've, would've, could've, etc
