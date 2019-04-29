@@ -112,3 +112,53 @@ accum("abcd") -> "A-Bb-Ccc-Dddd"
 accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from a..z and A..Z.
+
+# 8) I said the word WOULD instead of WOULDN'T
+
+Kata Task
+In this Kata you will write a method to return what you really meant to say by negating certain words (adding or removing n't)
+
+The words to be negated are drawn from this pool:
+
+are - aren't
+can - can't
+could - couldn't
+did - didn't
+do - don't
+had - hadn't
+has - hasn't
+have - haven't
+is - isn't
+might - mightn't
+must - mustn't
+should - shouldn't
+was - wasn't
+were - weren't
+would - wouldn't
+
+Input
+words - these are the words your brain has trouble with 
+(contains only lower case positive form of the word)
+
+speech - what your mouth said
+
+Output
+What you meant to say. This is the speech sentence, but with any
+of the words (both positive and negative forms) negated
+Notes
+Case rules
+when changing negative to positive the replacement word
+must be same case as the original
+when changing positive to negative use n't 
+(except if the original word (plus any 've part) was entirely uppercase, then use N'T)
+Beware of the word can
+Beware of punctuation
+Beware of variations with an 've suffix, such as should've, would've, could've, etc
+
+Examples
+words = ["can", "do", "have", "was", "would"]
+speech
+I do like pizza. ==> I don't like pizza.
+YES, WE CAN ==> YES, WE CAN'T
+Wouldn't you believe it? I can't! ==> Would you believe it? I can!
+
