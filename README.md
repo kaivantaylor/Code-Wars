@@ -216,3 +216,10 @@ parts_sums(ls) -> [21, 20, 18, 15, 11, 6, 0]
 
 ls = [744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358]
 parts_sums(ls) -> [10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 9291414, 9291270, 2581057, 2580168, 2579358, 0]
+
+# 12) Simple Pig Latin
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+
+Examples
+pig_it('Pig latin is cool') # igPay atinlay siay oolcay
+pig_it('Hello world !')     # elloHay orldway !
