@@ -88,7 +88,7 @@ Write a function that accepts an array of 10 integers (between 0 and 9), that re
 
 Example:
 create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns "(123) 456-7890"
-The returned format must be correct in order to complete this challenge. 
+The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
 
 # 6) Consecutive Strings
@@ -137,7 +137,7 @@ were - weren't
 would - wouldn't
 
 Input
-words - these are the words your brain has trouble with 
+words - these are the words your brain has trouble with
 (contains only lower case positive form of the word)
 
 speech - what your mouth said
@@ -149,7 +149,7 @@ Notes
 Case rules
 when changing negative to positive the replacement word
 must be same case as the original
-when changing positive to negative use n't 
+when changing positive to negative use n't
 (except if the original word (plus any 've part) was entirely uppercase, then use N'T)
 Beware of the word can
 Beware of punctuation
@@ -211,7 +211,7 @@ The corresponding sums are (put together in a list): [20, 20, 19, 16, 10, 0]
 The function parts_sums (or its variants in other languages) will take as parameter a list ls and return a list of the sums of its parts as defined above.
 
 Other Examples:
-ls = [1, 2, 3, 4, 5, 6] 
+ls = [1, 2, 3, 4, 5, 6]
 parts_sums(ls) -> [21, 20, 18, 15, 11, 6, 0]
 
 ls = [744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358]
@@ -223,3 +223,32 @@ Move the first letter of each word to the end of it, then add "ay" to the end of
 Examples
 pig_it('Pig latin is cool') # igPay atinlay siay oolcay
 pig_it('Hello world !')     # elloHay orldway !
+
+
+# 13) Happy Years
+
+Scenario
+You're saying good-bye your best friend , See you next happy year .
+
+Happy Year is the year with only distinct digits , (e.g) 2018
+
+Task
+Given a year, Find The next happy year or The closest year You'll see your best friend  !alt !alt
+
+Notes
+Year Of Course always Positive .
+Have no fear , It is guaranteed that the answer exists .
+It's not necessary that the year passed to the function is Happy one .
+Input Year with in range (1000  ≤  y  ≤  9000)
+Input >> Output Examples:
+nextHappyYear (7712) ==> return (7801)
+Explanation:
+As the Next closest year with only distinct digits is 7801 .
+
+nextHappyYear (8989) ==> return (9012)
+Explanation:
+As the Next closest year with only distinct digits is 9012 .
+
+nextHappyYear (1001) ==> return (1023)
+Explanation:
+As the Next closest year with only distinct digits is 1023 .
