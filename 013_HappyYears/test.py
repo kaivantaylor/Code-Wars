@@ -27,4 +27,4 @@ def some_func(year):
     else:
         print("The year is not valid")
 
-some_func(6060)
+some_func(1001)
